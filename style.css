@@ -7,14 +7,12 @@
             }
             header {
                 background: #333333;
-                height: 10x;
             }
             
             h1 {
                 color: #eeee;
                 font-size: 28px;
                 text-align: center;
-                size: 25px;
             }
 
             h2 {
@@ -41,7 +39,8 @@
             }
             
             .contact-info {
-                float: left;
+                float: right;
+                margin-right: 25px;
                 width: 40%;
                 border: dashed;
                 border-color: green;
