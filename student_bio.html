@@ -3,37 +3,7 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Activity: Basic Student Bio</title>
-        <style>
-            h1 {
-                background: gray;
-                color: purple;
-                text-align: center;
-            }
-
-            h2 {
-
-            }
-
-            li {
-                text-decoration: underline;
-            }
-
-            .bio {
-                float: left;
-            }
-
-            .contact {
-                float: left;
-            }
-
-            strong {
-                color: red;
-            }
-
-            img {
-                max-width: 350px;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
 
@@ -41,18 +11,22 @@
             <h1>Student BIO</h1>
         </header>
 
-    <div>
-        <section class="bio">
+    <div class="border">
+        <div class="container">
+        
             <h2>Eric D. Torres</h2>
 
+        <section class="bio-image">
             <img src="C:\Users\lncln\OneDrive\Documents\UT Coding Bootcamp\Rob and Archen 03102020.jpg" alt="Picture of Rob and Archen at USF" />
+        </section>
 
+        <section class="main-bio">
             <p>This is a paragraph about Eric D. Torres.  Eric D. Torres is in the UT Coding Bootcamp.  Louisiana, is the cureent location of Eric D. Torres.  Eric D. Torres died saving his family from the wreckage of Himilayan battlsehip out to sea.</p>
         </section>
 
 
-        <section class="contact">
-            <h2>Contact Info</h2>
+        <section class="contact-info">
+            <h2>Contact Info:</h2>
 
             <ul>
                 <li><strong>E-mail: </strong><a href="#">etorresnotary@gmail.com</a></li>
@@ -60,6 +34,8 @@
                 <li><strong>Portfolio: </strong><a href="#">Coming Soon</a></li>
             </ul>
         </section>
+
+    </div>
     </div>
 
     </body>
